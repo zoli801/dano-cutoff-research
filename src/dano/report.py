@@ -265,6 +265,8 @@ def main():
     finish(fig, "forecast_comparison", "Individual forecasts agree more than their uncertainty justifies",
            "A tight spread among fitted models is not a calibrated prediction interval. Four years require a much wider uncertainty range.")
 
+    from .overview import generate_assets
+    generate_assets()
     write_results(metrics, forecast, final, labels, pred, boot)
     print("Generated", len(list(FIG.glob('*.png'))), "figures and measured result tables.")
 
@@ -313,7 +315,9 @@ def write_results(metrics, forecast, final, labels, pred, boot):
         "With four calibration years, the 90% finite-sample conformal order statistic would require rank five; a useful distribution-free guarantee is unavailable. "
         "The documented conservative full-score range is [0,100]. Agreement among the fitted models is not evidence of narrow coverage.", "",
         "## Figures", ""]
-    captions = {"historical_cutoffs": "Historical targets and forecast", "architecture_comparison": "All architectures and metrics",
+    captions = {"grade11_forecast_table": "Headline grade-11 forecast table",
+        "end_to_end_pipeline": "Complete training and prediction pipeline",
+        "historical_cutoffs": "Historical targets and forecast", "architecture_comparison": "All architectures and metrics",
         "predicted_vs_actual": "Predicted versus actual", "error_distributions": "Error distributions",
         "learning_curves_cutoff": "Cutoff learning curves", "learning_curves_difficulty": "Difficulty learning curves",
         "frozen_head_learning": "Frozen transformer head", "feature_importance": "Feature importance",

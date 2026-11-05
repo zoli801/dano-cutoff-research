@@ -50,11 +50,15 @@ additionally checks that the exact supplied PDF matches the forecast input;
 a different PDF requires re-extraction and embedding regeneration.
 
 Figures and documentation tables derive from measured CSV/JSON outputs.
-`uv run python -m dano.report` regenerates 15 PNG/SVG figures and the local
+`uv run python -m dano.report` regenerates 17 PNG/SVG figures and the local
 HTML report. `uv run pytest -q` checks metric arithmetic, fold construction,
 answer removal, score-column alignment, variant weights, fold vocabulary
 isolation, prediction cases and available artifacts. Some corpus-dependent
 checks skip before data/embeddings are prepared.
+
+`uv run python -m dano.overview` regenerates only the bright grade-11 forecast
+table and the overall pipeline diagram from the saved result files, without
+retraining or changing any predictions.
 
 Reproducing floating-point predictions on another architecture/library stack
 may introduce small differences. The fixed seed, CPU budget and pinned

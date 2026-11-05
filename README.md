@@ -1,16 +1,43 @@
 # DANO cutoff research
 
+## Grade 11 final forecast — 2026/2027
+
+**Predicted qualification cutoff: approximately 63/100.**
+
+![Bright grade-11 forecast table: approximately 63 points; selected estimate 62.50; fixed ensemble 62.48; reference range 43.2–81.8](figures/grade11_forecast_table.png)
+
+| Final result | Predicted score / 100 |
+|---|---:|
+| **Recommended rounded forecast** | **≈ 63** |
+| Selected conservative estimate | **62.50** |
+| Fixed robust ensemble | **62.48** |
+| Assumption-dependent 90% reference range | **43.2–81.8** |
+
+These are research forecasts. The official 2026/27 cutoff is unverified here.
+Only four comparable historical seasons are available, so the range is wide
+and its coverage is not established. [All model forecasts](results/forecast_2026.csv)
+and the [exact final record](results/final_prediction.json) remain available.
+
+## Complete training and prediction pipeline
+
+![One complete DANO pipeline: historical inputs, representations, difficulty-first and direct models, fixed ensemble and final selection](figures/end_to_end_pipeline.png)
+
+[Open the scalable diagram](figures/end_to_end_pipeline.svg) ·
+[Input features, training targets and final selection explained](docs/FINAL_PIPELINE.md)
+
+The final selection favors the grade prior (**62.50**). The two branches
+compare difficulty-first and direct prediction; their fixed combined ensemble
+predicts **62.48**. The three-epoch frozen transformer
+head is evaluated separately and is excluded from that ensemble.
+
+## Research objective
+
 **Can problem text predict the score needed to reach the DANO final?**
 
 This project downloads the complete linked official problem archive, measures
 problem difficulty from anonymous historical scoring aggregates, and compares
 two-stage and direct prediction under whole-year leakage controls. All model
 training and inference run locally.
-
-> **2026/27, grade 11: approximately 63/100.** The conservative point estimate is
-> **62.5**; the fixed ensemble predicts **62.48**. A stationary-year, Student-t
-> reference prediction interval is **43.2–81.8**. Four comparable seasons do not
-> establish narrow, distribution-free uncertainty or high predictive precision.
 
 ![Historical cutoffs and forecast](figures/historical_cutoffs.png)
 
@@ -215,7 +242,7 @@ src/dano/                Collection, alignment, features, training, reporting, r
 tests/                   Metric, partition, answer-removal and data-isolation checks
 data/processed/          Anonymous aggregates, provenance and extraction audits
 results/                 Measured metrics, predictions, curves and replay check
-figures/                 15 publication-quality figures in PNG and SVG
+figures/                 17 publication-quality figures in PNG and SVG
 docs/                    Data, methods, validation, results and model limitations
 reports/                 Local HTML research report
 data/raw/                Downloaded source assets and supplied PDF (local, ignored)

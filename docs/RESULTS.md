@@ -169,6 +169,14 @@ The grade-11 cutoffs are 66, 70, 53 and 61. Their mean is 62.5. Under independen
 
 ## Figures
 
+### Headline grade-11 forecast table
+
+![Headline grade-11 forecast table](../figures/grade11_forecast_table.png)
+
+### Complete training and prediction pipeline
+
+![Complete training and prediction pipeline](../figures/end_to_end_pipeline.png)
+
 ### Historical targets and forecast
 
 ![Historical targets and forecast](../figures/historical_cutoffs.png)
