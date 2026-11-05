@@ -1,0 +1,65 @@
+{
+  "seed": 20261105,
+  "duration_seconds": 69.1675488329929,
+  "configuration": {
+    "seed": 20261105,
+    "threads": 4,
+    "iterations": 1000,
+    "difficulty_catboost": {
+      "depth": 3,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 20
+    },
+    "direct_catboost": {
+      "depth": 2,
+      "learning_rate": 0.02,
+      "l2_leaf_reg": 20
+    },
+    "difficulty_lightgbm": {
+      "max_depth": 3,
+      "num_leaves": 7,
+      "learning_rate": 0.03,
+      "min_child_samples": 10,
+      "reg_lambda": 20
+    },
+    "direct_lightgbm": {
+      "max_depth": 2,
+      "num_leaves": 3,
+      "learning_rate": 0.02,
+      "min_child_samples": 2,
+      "reg_lambda": 10
+    },
+    "tfidf": {
+      "word_ngram_range": [
+        1,
+        2
+      ],
+      "char_ngram_range": [
+        3,
+        5
+      ],
+      "max_features_each": 3000,
+      "svd_components": 24
+    },
+    "direct_ridge_alpha": 20,
+    "calibration_ridge_alpha": 10,
+    "frozen_head": {
+      "epochs": 3,
+      "learning_rate": 0.01,
+      "weight_decay": 0.1,
+      "trainable_encoder": false
+    },
+    "robust_ensemble_weights": {
+      "grade_mean": 0.5,
+      "direct_ensemble": 0.25,
+      "difficulty_ensemble": 0.25
+    },
+    "primary_validation": "cyclic diagonal triples, distinct years and grades; purge every grade of all validation years",
+    "secondary_validation": "one validation case per fold; purge whole case year; cache identical training sets",
+    "forward_validation": "one validation case per fold, only earlier years train; minimum two cutoff years",
+    "early_stopping": false,
+    "hyperparameter_search": false
+  },
+  "training_location": "local macOS arm64 CPU; four threads; no remote compute",
+  "cutoff_data_sha256": "f6b188d86853bf87e27c927b8345d81e5a85ff7a8c37d357ffaf69f915df51f0"
+}

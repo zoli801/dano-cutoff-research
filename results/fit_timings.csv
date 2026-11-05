@@ -1,0 +1,91 @@
+stage,years,model,seconds
+direct,[2025],direct_tfidf_catboost,0.08394783399126027
+direct,[2025],direct_tfidf_lightgbm,0.022941499992157333
+direct,[2025],direct_tfidf_ridge,0.0011848750000353903
+direct,[2025],direct_rubert_catboost,0.011276958000962622
+direct,[2025],direct_rubert_lightgbm,0.010424874999444
+direct,[2025],direct_rubert_ridge,0.0008790830033831298
+direct,[2022],direct_tfidf_catboost,0.008906458009732887
+direct,[2022],direct_tfidf_lightgbm,0.012465417006751522
+direct,[2022],direct_tfidf_ridge,0.0007471660064766183
+direct,[2022],direct_rubert_catboost,0.010073708996060304
+direct,[2022],direct_rubert_lightgbm,0.012564124990603887
+direct,[2022],direct_rubert_ridge,0.0007080000068526715
+direct,[2023],direct_tfidf_catboost,0.0091110409994144
+direct,[2023],direct_tfidf_lightgbm,0.012807708990294486
+direct,[2023],direct_tfidf_ridge,0.0007633750064997002
+direct,[2023],direct_rubert_catboost,0.010456332995090634
+direct,[2023],direct_rubert_lightgbm,0.0127814169973135
+direct,[2023],direct_rubert_ridge,0.0007441670022672042
+direct,[2024],direct_tfidf_catboost,0.00906037499953527
+direct,[2024],direct_tfidf_lightgbm,0.01461991599353496
+direct,[2024],direct_tfidf_ridge,0.0008586670010117814
+direct,[2024],direct_rubert_catboost,0.011211125005502254
+direct,[2024],direct_rubert_lightgbm,0.013248167000710964
+direct,[2024],direct_rubert_ridge,0.0007815830031177029
+direct,"[2023, 2024, 2025]",direct_tfidf_catboost,0.03632591701170895
+direct,"[2023, 2024, 2025]",direct_tfidf_lightgbm,0.10839162499178201
+direct,"[2023, 2024, 2025]",direct_tfidf_ridge,0.000764458003686741
+direct,"[2023, 2024, 2025]",direct_rubert_catboost,0.1957682499923976
+direct,"[2023, 2024, 2025]",direct_rubert_lightgbm,0.13724424999963958
+direct,"[2023, 2024, 2025]",direct_rubert_ridge,0.0008877920045051724
+direct,"[2024, 2025]",direct_tfidf_catboost,0.08136029199522454
+direct,"[2024, 2025]",direct_tfidf_lightgbm,0.10536591699928977
+direct,"[2024, 2025]",direct_tfidf_ridge,0.0008853750041453168
+direct,"[2024, 2025]",direct_rubert_catboost,0.3124433329940075
+direct,"[2024, 2025]",direct_rubert_lightgbm,0.11873079200449865
+direct,"[2024, 2025]",direct_rubert_ridge,0.0009070829983102158
+direct,"[2023, 2025]",direct_tfidf_catboost,0.0730484170053387
+direct,"[2023, 2025]",direct_tfidf_lightgbm,0.09168549999594688
+direct,"[2023, 2025]",direct_tfidf_ridge,0.0008107500034384429
+direct,"[2023, 2025]",direct_rubert_catboost,0.312892957997974
+direct,"[2023, 2025]",direct_rubert_lightgbm,0.10609608300728723
+direct,"[2023, 2025]",direct_rubert_ridge,0.000880457999301143
+direct,"[2023, 2024]",direct_tfidf_catboost,0.06803070899331942
+direct,"[2023, 2024]",direct_tfidf_lightgbm,0.09034225001232699
+direct,"[2023, 2024]",direct_tfidf_ridge,0.0007912080036476254
+direct,"[2023, 2024]",direct_rubert_catboost,0.30321850000473205
+direct,"[2023, 2024]",direct_rubert_lightgbm,0.10434620801243
+direct,"[2023, 2024]",direct_rubert_ridge,0.0008333750010933727
+direct,"[2022, 2024, 2025]",direct_tfidf_catboost,0.03796579199843109
+direct,"[2022, 2024, 2025]",direct_tfidf_lightgbm,0.1106074169947533
+direct,"[2022, 2024, 2025]",direct_tfidf_ridge,0.0007942090014694259
+direct,"[2022, 2024, 2025]",direct_rubert_catboost,0.1479264579975279
+direct,"[2022, 2024, 2025]",direct_rubert_lightgbm,0.12916366699209902
+direct,"[2022, 2024, 2025]",direct_rubert_ridge,0.0008237919973907992
+direct,"[2022, 2025]",direct_tfidf_catboost,0.06860700000834186
+direct,"[2022, 2025]",direct_tfidf_lightgbm,0.10753920800925698
+direct,"[2022, 2025]",direct_tfidf_ridge,0.0008694580028532073
+direct,"[2022, 2025]",direct_rubert_catboost,0.30690924999362323
+direct,"[2022, 2025]",direct_rubert_lightgbm,0.1211780000012368
+direct,"[2022, 2025]",direct_rubert_ridge,0.0009087500075111166
+direct,"[2022, 2024]",direct_tfidf_catboost,0.08350379200419411
+direct,"[2022, 2024]",direct_tfidf_lightgbm,0.10018037501140498
+direct,"[2022, 2024]",direct_tfidf_ridge,0.0008384170068893582
+direct,"[2022, 2024]",direct_rubert_catboost,0.3037990839948179
+direct,"[2022, 2024]",direct_rubert_lightgbm,0.11712933299713768
+direct,"[2022, 2024]",direct_rubert_ridge,0.0008364159875782207
+direct,"[2022, 2023, 2025]",direct_tfidf_catboost,0.035547874998883344
+direct,"[2022, 2023, 2025]",direct_tfidf_lightgbm,0.11208937500487082
+direct,"[2022, 2023, 2025]",direct_tfidf_ridge,0.0008620410080766305
+direct,"[2022, 2023, 2025]",direct_rubert_catboost,0.18019683299644385
+direct,"[2022, 2023, 2025]",direct_rubert_lightgbm,0.13465720799285918
+direct,"[2022, 2023, 2025]",direct_rubert_ridge,0.0008790830033831298
+direct,"[2022, 2023]",direct_tfidf_catboost,0.06815879199712072
+direct,"[2022, 2023]",direct_tfidf_lightgbm,0.0963558330113301
+direct,"[2022, 2023]",direct_tfidf_ridge,0.0008053330093389377
+direct,"[2022, 2023]",direct_rubert_catboost,0.3076771250052843
+direct,"[2022, 2023]",direct_rubert_lightgbm,0.10157691700442228
+direct,"[2022, 2023]",direct_rubert_ridge,0.0008691250113770366
+direct,"[2022, 2023, 2024]",direct_tfidf_catboost,0.03943533400888555
+direct,"[2022, 2023, 2024]",direct_tfidf_lightgbm,0.11427733299206011
+direct,"[2022, 2023, 2024]",direct_tfidf_ridge,0.000830000004498288
+direct,"[2022, 2023, 2024]",direct_rubert_catboost,0.1484030419960618
+direct,"[2022, 2023, 2024]",direct_rubert_lightgbm,0.12741529200866353
+direct,"[2022, 2023, 2024]",direct_rubert_ridge,0.0008839579968480393
+direct,"[2022, 2023, 2024, 2025]",direct_tfidf_catboost,0.03823595799622126
+direct,"[2022, 2023, 2024, 2025]",direct_tfidf_lightgbm,0.11046674998942763
+direct,"[2022, 2023, 2024, 2025]",direct_tfidf_ridge,0.0008498749957652763
+direct,"[2022, 2023, 2024, 2025]",direct_rubert_catboost,0.14901920799457002
+direct,"[2022, 2023, 2024, 2025]",direct_rubert_lightgbm,0.13413308399321977
+direct,"[2022, 2023, 2024, 2025]",direct_rubert_ridge,0.0008930420008255169

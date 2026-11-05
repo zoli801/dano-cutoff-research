@@ -1,0 +1,40 @@
+{
+  "target_season": "2026/2027",
+  "grade": 11,
+  "scale_assumption": 100,
+  "final_model": "baseline_grade_mean",
+  "final_prediction": 62.5,
+  "fixed_robust_ensemble": 62.48223739048629,
+  "direct_ensemble": 62.05388332152665,
+  "difficulty_ensemble": 62.87506624041851,
+  "final_selection_inner_power_1_5": {
+    "baseline_grade_mean": 24.735764245150246,
+    "robust_ensemble": 26.498724410606144
+  },
+  "plausible_interval": [
+    43.224914262423496,
+    81.7750857375765
+  ],
+  "interval_method": "Envelope of baseline and selected-point 90% Student-t forecast intervals using four grade-11 historical cutoffs; stationarity/Gaussian-year-effect assumptions; no demonstrated coverage guarantee",
+  "baseline_stationary_student_t_interval": [
+    43.224914262423496,
+    81.7750857375765
+  ],
+  "loyo_nested_grade11_max_abs_residual": 13.265174801687422,
+  "distribution_free_90_interval": [
+    0,
+    100
+  ],
+  "calibration_years": 4,
+  "conformal_90_required_rank": 5,
+  "limitations": [
+    "Only four comparable cutoff seasons / twelve correlated labels",
+    "2026 paper has 30 problems; historical comparable papers have 15, 17, 20, 20",
+    "No 2026 item weights or attached task data in provided PDF",
+    "Native PDF text does not encode all diagrams and formula images",
+    "Difficulty labels are cohort-dependent pooled-variant partial-credit rates",
+    "Entrant ability and final capacity/quota are unobserved",
+    "Frozen transformer heads, not full encoder fine-tuning",
+    "No claim of high predictive precision is supported"
+  ]
+}

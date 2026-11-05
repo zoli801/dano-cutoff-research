@@ -1,0 +1,196 @@
+[
+  {
+    "protocol": "diagonal",
+    "fold": "diagonal_0",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "reason": "only one cutoff training season"
+    }
+  },
+  {
+    "protocol": "diagonal",
+    "fold": "diagonal_1",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "reason": "only one cutoff training season"
+    }
+  },
+  {
+    "protocol": "diagonal",
+    "fold": "diagonal_2",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "reason": "only one cutoff training season"
+    }
+  },
+  {
+    "protocol": "diagonal",
+    "fold": "diagonal_3",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "reason": "only one cutoff training season"
+    }
+  },
+  {
+    "protocol": "single_case_year_purged",
+    "fold": "single_2022_9",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "baseline_grade_mean": 35.58416998056013,
+      "robust_ensemble": 37.82469870080614
+    }
+  },
+  {
+    "protocol": "single_case_year_purged",
+    "fold": "single_2022_10",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "baseline_grade_mean": 35.58416998056013,
+      "robust_ensemble": 37.82469870080614
+    }
+  },
+  {
+    "protocol": "single_case_year_purged",
+    "fold": "single_2022_11",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "baseline_grade_mean": 35.58416998056013,
+      "robust_ensemble": 37.82469870080614
+    }
+  },
+  {
+    "protocol": "single_case_year_purged",
+    "fold": "single_2023_9",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "baseline_grade_mean": 18.53346708448275,
+      "robust_ensemble": 27.89944003641442
+    }
+  },
+  {
+    "protocol": "single_case_year_purged",
+    "fold": "single_2023_10",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "baseline_grade_mean": 18.53346708448275,
+      "robust_ensemble": 27.89944003641442
+    }
+  },
+  {
+    "protocol": "single_case_year_purged",
+    "fold": "single_2023_11",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "baseline_grade_mean": 18.53346708448275,
+      "robust_ensemble": 27.89944003641442
+    }
+  },
+  {
+    "protocol": "single_case_year_purged",
+    "fold": "single_2024_9",
+    "selected": "robust_ensemble",
+    "inner_scores": {
+      "baseline_grade_mean": 17.36606836679588,
+      "robust_ensemble": 14.633932243028049
+    }
+  },
+  {
+    "protocol": "single_case_year_purged",
+    "fold": "single_2024_10",
+    "selected": "robust_ensemble",
+    "inner_scores": {
+      "baseline_grade_mean": 17.36606836679588,
+      "robust_ensemble": 14.633932243028049
+    }
+  },
+  {
+    "protocol": "single_case_year_purged",
+    "fold": "single_2024_11",
+    "selected": "robust_ensemble",
+    "inner_scores": {
+      "baseline_grade_mean": 17.36606836679588,
+      "robust_ensemble": 14.633932243028049
+    }
+  },
+  {
+    "protocol": "single_case_year_purged",
+    "fold": "single_2025_9",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "baseline_grade_mean": 36.20844880206169,
+      "robust_ensemble": 39.54092215013125
+    }
+  },
+  {
+    "protocol": "single_case_year_purged",
+    "fold": "single_2025_10",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "baseline_grade_mean": 36.20844880206169,
+      "robust_ensemble": 39.54092215013125
+    }
+  },
+  {
+    "protocol": "single_case_year_purged",
+    "fold": "single_2025_11",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "baseline_grade_mean": 36.20844880206169,
+      "robust_ensemble": 39.54092215013125
+    }
+  },
+  {
+    "protocol": "forward",
+    "fold": "forward_2024_9",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "baseline_grade_mean": 16.934372163060914,
+      "robust_ensemble": 18.753011295811454
+    }
+  },
+  {
+    "protocol": "forward",
+    "fold": "forward_2024_10",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "baseline_grade_mean": 16.934372163060914,
+      "robust_ensemble": 18.753011295811454
+    }
+  },
+  {
+    "protocol": "forward",
+    "fold": "forward_2024_11",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "baseline_grade_mean": 16.934372163060914,
+      "robust_ensemble": 18.753011295811454
+    }
+  },
+  {
+    "protocol": "forward",
+    "fold": "forward_2025_9",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "baseline_grade_mean": 36.20844880206169,
+      "robust_ensemble": 39.54092215013125
+    }
+  },
+  {
+    "protocol": "forward",
+    "fold": "forward_2025_10",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "baseline_grade_mean": 36.20844880206169,
+      "robust_ensemble": 39.54092215013125
+    }
+  },
+  {
+    "protocol": "forward",
+    "fold": "forward_2025_11",
+    "selected": "baseline_grade_mean",
+    "inner_scores": {
+      "baseline_grade_mean": 36.20844880206169,
+      "robust_ensemble": 39.54092215013125
+    }
+  }
+]

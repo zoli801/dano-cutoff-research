@@ -1,0 +1,17 @@
+{
+  "model_id": "cointegrated/rubert-tiny2",
+  "revision": "e8ed3b0c8bbf4fb6984c3de043bf7d2f4e5969ae",
+  "files_sha256": {
+    "model.safetensors": "26ebb6db2a68593c54c74902d7a74f332da66297693f965cc9f1b0af4abf3894",
+    "tokenizer_config.json": "74aab51b71a8d116c035464df96c600770f9844696b8965e397b2b1649010686",
+    "special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+    "config.json": "adee8b3e344bcb8379f44d0b3577c267d52881341e05d973c43e49974778dfff",
+    "tokenizer.json": "45cc9f974145661db6bc020795839d1dc371adc19a9c78b910393209b4fe5efc",
+    "README.md": "6eec7047e9db76ee30e4c9dd542a25cf0c4f1f93a2119db56cd10f0c393fc00f",
+    "vocab.txt": "f056a69b097422652053bf87565c35543e5d81540ca4b7dddd28de4157a969e0"
+  },
+  "pooling": "attention-masked token mean; token-count weighted chunk mean; L2 normalized",
+  "max_length": 256,
+  "stride": 32,
+  "trainable_encoder": false
+}

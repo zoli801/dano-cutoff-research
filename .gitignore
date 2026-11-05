@@ -1,0 +1,17 @@
+.venv/
+.cache/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/raw/
+data/interim/
+data/processed/problem_texts.jsonl
+data/processed/sets_texts.jsonl
+data/processed/problems_metadata.csv
+data/processed/pdf_extraction_audit.json
+results/replay_check.json
+models/
+tmp/
+catboost_info/
+.DS_Store
+*.egg-info/

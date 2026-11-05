@@ -1,0 +1,177 @@
+model,group,importance
+difficulty_rubert_catboost,Causality,0.04070053683999701
+difficulty_rubert_catboost,Data File,1.432136435415423
+difficulty_rubert_catboost,Digit Fraction,0.03296399714314154
+difficulty_rubert_catboost,Economics,0.08611927406879598
+difficulty_rubert_catboost,Grade,2.353396868232875
+difficulty_rubert_catboost,Hypothesis,0.008346083007826953
+difficulty_rubert_catboost,Latin Fraction,0.02410053462187344
+difficulty_rubert_catboost,Log Characters,0.5601259518155501
+difficulty_rubert_catboost,Log Words,0.07545095916355038
+difficulty_rubert_catboost,Math Symbol Fraction,0.3306949548060504
+difficulty_rubert_catboost,Ml,0.015461908281921117
+difficulty_rubert_catboost,Probability,0.0
+difficulty_rubert_catboost,Question Count,0.0
+difficulty_rubert_catboost,Regression,0.0
+difficulty_rubert_catboost,Semantic representation,92.7295405429249
+difficulty_rubert_catboost,Statistics,0.0
+difficulty_rubert_catboost,Visual,2.2551636670699984
+difficulty_rubert_catboost,Word Length,0.05579828660809393
+difficulty_rubert_lightgbm,Causality,0.0
+difficulty_rubert_lightgbm,Data File,2.4597752600927256
+difficulty_rubert_lightgbm,Digit Fraction,0.0022285298955909113
+difficulty_rubert_lightgbm,Economics,0.0
+difficulty_rubert_lightgbm,Grade,2.526827367641026
+difficulty_rubert_lightgbm,Hypothesis,0.5704214615242269
+difficulty_rubert_lightgbm,Latin Fraction,0.1978828548407615
+difficulty_rubert_lightgbm,Log Characters,0.024559817045462055
+difficulty_rubert_lightgbm,Log Words,0.00479054165153772
+difficulty_rubert_lightgbm,Math Symbol Fraction,0.059260993415268054
+difficulty_rubert_lightgbm,Ml,0.015782487213499993
+difficulty_rubert_lightgbm,Probability,0.040312660246063274
+difficulty_rubert_lightgbm,Question Count,0.0
+difficulty_rubert_lightgbm,Regression,0.0
+difficulty_rubert_lightgbm,Semantic representation,93.22269298435431
+difficulty_rubert_lightgbm,Statistics,0.0
+difficulty_rubert_lightgbm,Visual,0.8684482428430156
+difficulty_rubert_lightgbm,Word Length,0.007016799236513117
+difficulty_tfidf_catboost,Causality,0.022664175583338355
+difficulty_tfidf_catboost,Data File,0.9032545520749606
+difficulty_tfidf_catboost,Digit Fraction,0.36092241938171804
+difficulty_tfidf_catboost,Economics,0.25409679322066664
+difficulty_tfidf_catboost,Grade,2.2355208046953905
+difficulty_tfidf_catboost,Hypothesis,0.47208070583683037
+difficulty_tfidf_catboost,Latin Fraction,0.11246278094318933
+difficulty_tfidf_catboost,Log Characters,1.7305133464101345
+difficulty_tfidf_catboost,Log Words,1.1878636828304003
+difficulty_tfidf_catboost,Math Symbol Fraction,0.8777378946909895
+difficulty_tfidf_catboost,Ml,0.04456048186616425
+difficulty_tfidf_catboost,Probability,0.08174457479406338
+difficulty_tfidf_catboost,Question Count,0.02304785789089893
+difficulty_tfidf_catboost,Regression,0.00791980917660724
+difficulty_tfidf_catboost,Semantic representation,83.75447482670373
+difficulty_tfidf_catboost,Statistics,0.14692744739068653
+difficulty_tfidf_catboost,Visual,7.279896976295035
+difficulty_tfidf_catboost,Word Length,0.5043108702151851
+difficulty_tfidf_lightgbm,Causality,0.029596653364487725
+difficulty_tfidf_lightgbm,Data File,0.16530602580182419
+difficulty_tfidf_lightgbm,Digit Fraction,0.48266601021881245
+difficulty_tfidf_lightgbm,Economics,0.1963532190291402
+difficulty_tfidf_lightgbm,Grade,2.5887718039746805
+difficulty_tfidf_lightgbm,Hypothesis,0.8074253019049493
+difficulty_tfidf_lightgbm,Latin Fraction,0.47053203556086526
+difficulty_tfidf_lightgbm,Log Characters,1.2359309116034973
+difficulty_tfidf_lightgbm,Log Words,0.7228458408685536
+difficulty_tfidf_lightgbm,Math Symbol Fraction,0.30780373348747897
+difficulty_tfidf_lightgbm,Ml,0.014501585327727346
+difficulty_tfidf_lightgbm,Probability,0.22329305025927856
+difficulty_tfidf_lightgbm,Question Count,0.1883985734513255
+difficulty_tfidf_lightgbm,Regression,0.0
+difficulty_tfidf_lightgbm,Semantic representation,86.63973920058673
+difficulty_tfidf_lightgbm,Statistics,0.38663574190529526
+difficulty_tfidf_lightgbm,Visual,4.978924790476545
+difficulty_tfidf_lightgbm,Word Length,0.5612755221788077
+direct_rubert_catboost,Causality,0.5964023702151556
+direct_rubert_catboost,Data File,0.5149162302607062
+direct_rubert_catboost,Digit Fraction,0.0
+direct_rubert_catboost,Economics,0.05557233710046549
+direct_rubert_catboost,Grade,42.13089982467183
+direct_rubert_catboost,Hypothesis,1.1028695349612032
+direct_rubert_catboost,Latin Fraction,0.47781797822261574
+direct_rubert_catboost,Log Characters,0.10258747296183159
+direct_rubert_catboost,Log Words,0.0
+direct_rubert_catboost,Math Symbol Fraction,0.056294612852233875
+direct_rubert_catboost,Ml,0.4302813328927276
+direct_rubert_catboost,Probability,0.36928425132350806
+direct_rubert_catboost,Problem count,0.5826547441487153
+direct_rubert_catboost,Question Count,0.0
+direct_rubert_catboost,Regression,0.15076745730872823
+direct_rubert_catboost,Semantic representation,52.41471426532434
+direct_rubert_catboost,Statistics,0.2478775842623543
+direct_rubert_catboost,Variation: Digit Fraction,0.03424750837112773
+direct_rubert_catboost,Variation: Latin Fraction,0.2875306228706936
+direct_rubert_catboost,Variation: Log Characters,0.0
+direct_rubert_catboost,Variation: Log Words,0.0
+direct_rubert_catboost,Variation: Math Symbol Fraction,0.0
+direct_rubert_catboost,Variation: Question Count,0.0
+direct_rubert_catboost,Variation: Word Length,0.0
+direct_rubert_catboost,Visual,0.2119290430797058
+direct_rubert_catboost,Word Length,0.2333528291720636
+direct_rubert_lightgbm,Causality,0.0
+direct_rubert_lightgbm,Data File,0.0
+direct_rubert_lightgbm,Digit Fraction,0.0
+direct_rubert_lightgbm,Economics,0.0
+direct_rubert_lightgbm,Grade,35.591517847108165
+direct_rubert_lightgbm,Hypothesis,0.0
+direct_rubert_lightgbm,Latin Fraction,0.0
+direct_rubert_lightgbm,Log Characters,0.0
+direct_rubert_lightgbm,Log Words,0.0
+direct_rubert_lightgbm,Math Symbol Fraction,0.0
+direct_rubert_lightgbm,Ml,0.0
+direct_rubert_lightgbm,Probability,0.0
+direct_rubert_lightgbm,Problem count,0.0
+direct_rubert_lightgbm,Question Count,0.0
+direct_rubert_lightgbm,Regression,0.0
+direct_rubert_lightgbm,Semantic representation,64.40848215289184
+direct_rubert_lightgbm,Statistics,0.0
+direct_rubert_lightgbm,Variation: Digit Fraction,0.0
+direct_rubert_lightgbm,Variation: Latin Fraction,0.0
+direct_rubert_lightgbm,Variation: Log Characters,0.0
+direct_rubert_lightgbm,Variation: Log Words,0.0
+direct_rubert_lightgbm,Variation: Math Symbol Fraction,0.0
+direct_rubert_lightgbm,Variation: Question Count,0.0
+direct_rubert_lightgbm,Variation: Word Length,0.0
+direct_rubert_lightgbm,Visual,0.0
+direct_rubert_lightgbm,Word Length,0.0
+direct_tfidf_catboost,Causality,2.063549965449049
+direct_tfidf_catboost,Data File,4.150878857645237
+direct_tfidf_catboost,Digit Fraction,0.135793872145357
+direct_tfidf_catboost,Economics,1.0561743813287703
+direct_tfidf_catboost,Grade,41.460306913715414
+direct_tfidf_catboost,Hypothesis,3.590071917023293
+direct_tfidf_catboost,Latin Fraction,1.1394790362298064
+direct_tfidf_catboost,Log Characters,0.10972514703585974
+direct_tfidf_catboost,Log Words,0.10660846249043157
+direct_tfidf_catboost,Math Symbol Fraction,0.1460902949158463
+direct_tfidf_catboost,Ml,2.2347187199183067
+direct_tfidf_catboost,Probability,1.230757062020429
+direct_tfidf_catboost,Problem count,1.5408008058996567
+direct_tfidf_catboost,Question Count,0.12546415286983306
+direct_tfidf_catboost,Regression,0.3332203563108025
+direct_tfidf_catboost,Semantic representation,32.55144277563429
+direct_tfidf_catboost,Statistics,2.3065406423136183
+direct_tfidf_catboost,Variation: Digit Fraction,0.5745958462330656
+direct_tfidf_catboost,Variation: Latin Fraction,1.7447966259567171
+direct_tfidf_catboost,Variation: Log Characters,0.04767337892533049
+direct_tfidf_catboost,Variation: Log Words,0.26671539416183276
+direct_tfidf_catboost,Variation: Math Symbol Fraction,0.07802677967964582
+direct_tfidf_catboost,Variation: Question Count,0.3360014503543779
+direct_tfidf_catboost,Variation: Word Length,0.06411781984432643
+direct_tfidf_catboost,Visual,1.8256497413786685
+direct_tfidf_catboost,Word Length,0.780799600520035
+direct_tfidf_lightgbm,Causality,0.0
+direct_tfidf_lightgbm,Data File,0.0
+direct_tfidf_lightgbm,Digit Fraction,0.0
+direct_tfidf_lightgbm,Economics,0.0
+direct_tfidf_lightgbm,Grade,35.59151781946283
+direct_tfidf_lightgbm,Hypothesis,0.0
+direct_tfidf_lightgbm,Latin Fraction,0.0
+direct_tfidf_lightgbm,Log Characters,0.0
+direct_tfidf_lightgbm,Log Words,0.0
+direct_tfidf_lightgbm,Math Symbol Fraction,0.0
+direct_tfidf_lightgbm,Ml,0.0
+direct_tfidf_lightgbm,Probability,0.0
+direct_tfidf_lightgbm,Problem count,0.0
+direct_tfidf_lightgbm,Question Count,0.0
+direct_tfidf_lightgbm,Regression,0.0
+direct_tfidf_lightgbm,Semantic representation,64.40848218053716
+direct_tfidf_lightgbm,Statistics,0.0
+direct_tfidf_lightgbm,Variation: Digit Fraction,0.0
+direct_tfidf_lightgbm,Variation: Latin Fraction,0.0
+direct_tfidf_lightgbm,Variation: Log Characters,0.0
+direct_tfidf_lightgbm,Variation: Log Words,0.0
+direct_tfidf_lightgbm,Variation: Math Symbol Fraction,0.0
+direct_tfidf_lightgbm,Variation: Question Count,0.0
+direct_tfidf_lightgbm,Variation: Word Length,0.0
+direct_tfidf_lightgbm,Visual,0.0
+direct_tfidf_lightgbm,Word Length,0.0

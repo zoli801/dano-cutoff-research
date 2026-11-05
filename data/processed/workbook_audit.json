@@ -1,0 +1,67 @@
+[
+  {
+    "year": 2021,
+    "overall_numeric_eligible_rows": 3033,
+    "ambiguous_name_keys": 0,
+    "scoring_column_count": 25,
+    "physical_problem_count": 25,
+    "item_max_points_sum": 127.0,
+    "detail_numeric_total_rows": 1697,
+    "matched_grade_11": 777,
+    "matched_grade_10": 542,
+    "unmatched_or_ambiguous_grade": 50,
+    "matched_grade_9": 328
+  },
+  {
+    "year": 2022,
+    "overall_numeric_eligible_rows": 1369,
+    "ambiguous_name_keys": 1,
+    "scoring_column_count": 18,
+    "physical_problem_count": 15,
+    "item_max_points_sum": 100.0,
+    "detail_numeric_total_rows": 1370,
+    "matched_grade_11": 736,
+    "matched_grade_9": 232,
+    "matched_grade_10": 391,
+    "unmatched_or_ambiguous_grade": 11
+  },
+  {
+    "year": 2023,
+    "overall_numeric_eligible_rows": 1463,
+    "ambiguous_name_keys": 1,
+    "scoring_column_count": 26,
+    "physical_problem_count": 17,
+    "item_max_points_sum": 100.0,
+    "detail_numeric_total_rows": 1463,
+    "matched_grade_11": 770,
+    "matched_grade_10": 422,
+    "matched_grade_9": 244,
+    "unmatched_or_ambiguous_grade": 27
+  },
+  {
+    "year": 2024,
+    "overall_numeric_eligible_rows": 1656,
+    "ambiguous_name_keys": 1,
+    "scoring_column_count": 20,
+    "physical_problem_count": 20,
+    "item_max_points_sum": 100.0,
+    "detail_numeric_total_rows": 1656,
+    "matched_grade_11": 926,
+    "matched_grade_10": 434,
+    "matched_grade_9": 292,
+    "unmatched_or_ambiguous_grade": 4
+  },
+  {
+    "year": 2025,
+    "overall_numeric_eligible_rows": 1148,
+    "ambiguous_name_keys": 0,
+    "scoring_column_count": 20,
+    "physical_problem_count": 20,
+    "item_max_points_sum": 100.0,
+    "detail_numeric_total_rows": 1148,
+    "matched_grade_11": 650,
+    "matched_grade_10": 319,
+    "matched_grade_9": 176,
+    "unmatched_or_ambiguous_grade": 3
+  }
+]

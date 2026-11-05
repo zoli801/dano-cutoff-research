@@ -1,0 +1,13 @@
+year,season,stage,grade,winner_cutoff,cutoff,source_url,target_definition
+2022,2022/2023,stage2,9,65.0,50.0,https://dano.hse.ru/result,minimum second-stage prizewinner score qualifies for final
+2022,2022/2023,stage2,10,75.0,60.0,https://dano.hse.ru/result,minimum second-stage prizewinner score qualifies for final
+2022,2022/2023,stage2,11,80.0,66.0,https://dano.hse.ru/result,minimum second-stage prizewinner score qualifies for final
+2023,2023/2024,stage2,9,70.0,60.0,https://dano.hse.ru/result,minimum second-stage prizewinner score qualifies for final
+2023,2023/2024,stage2,10,75.0,65.0,https://dano.hse.ru/result,minimum second-stage prizewinner score qualifies for final
+2023,2023/2024,stage2,11,80.0,70.0,https://dano.hse.ru/result,minimum second-stage prizewinner score qualifies for final
+2024,2024/2025,stage2,9,55.0,40.0,https://dano.hse.ru/result,minimum second-stage prizewinner score qualifies for final
+2024,2024/2025,stage2,10,65.0,47.0,https://dano.hse.ru/result,minimum second-stage prizewinner score qualifies for final
+2024,2024/2025,stage2,11,70.0,53.0,https://dano.hse.ru/result,minimum second-stage prizewinner score qualifies for final
+2025,2025/2026,stage2,9,66.0,45.0,https://dano.hse.ru/result,minimum second-stage prizewinner score qualifies for final
+2025,2025/2026,stage2,10,70.0,55.0,https://dano.hse.ru/result,minimum second-stage prizewinner score qualifies for final
+2025,2025/2026,stage2,11,77.0,61.0,https://dano.hse.ru/result,minimum second-stage prizewinner score qualifies for final
